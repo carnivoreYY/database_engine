@@ -1,0 +1,41 @@
+CREATE TABLE sample_table1 (
+ssn INT PRIMARY KEY,
+fName TEXT NOT NULL,
+nName TEXT,
+address TEXT,
+DOB DATE NOT NULL,
+DOB1 DATETIME,
+ti TINYINT,
+si SMALLINT,
+i INT,
+bi BIGINT,
+r REAL,
+d DOUBLE,
+);
+
+CREATE TABLE sample_table (
+ssn INT PRIMARY KEY,
+fName TEXT NOT NULL,
+nName TEXT,
+address TEXT,
+);
+
+update sample_table1 set address="65" where fname = r23aeqw;
+
+update sample_table set address=65 where d = 45.80;
+insert into sample_table1 (ssn, fName, nName, address, DOB, DOB1, ti, si, i, bi, r, d) values (116 , 'r23aeqw', 'jtryrty', 'nmbn', '1989-11-12', '1989-11-12 12:12:12', 12, 256, 500, 50000, 45.56, 45.7989);
+insert into sample_table1 (ssn, fName, nName, address, DOB, DOB1, ti, si, i, bi, r, d) values (119 , 'r23aeqw', 'jtryrty', 'nmbn', '1989-11-12', '1989-11-12 12:12:12', 12, 256, 500, 50000, 45.56, 45.7989);
+insert into sample_table1 (ssn, fName, nName, address, DOB, DOB1, ti, si, i, bi, r, d) values (120 , 'r23aeqw', 'jtryrty', 'nmbn', '1989-11-12', '1989-11-12 12:12:12', 12, 256, 500, 50000, 45.56, 45.7989);
+insert into sample_table1 (ssn, fName, nName, address, DOB, DOB1, ti, si, i, bi, r, d) values (121 , 'r23aeqw', 'jtryrty', 'nmbn', '1989-11-12', '1989-11-12 12:12:12', 12, 256, 500, 50000, 45.56, 45.7989);
+insert into sample_table1 (ssn, fName, nName, address, DOB, DOB1, ti, si, i, bi, r, d) values (123 , 'r23aeqw', 'jtryrty', 'nmbn', '1990-11-12', '1991-03-09 23:01:14', 12, 256, 500, 50000, 45.56, 45.7989);
+
+select * from sample_table1 where ssn = 121;
+select * from sample_table1 where dob = 1989-11-12;
+
+insert into sample_table (ssn, fName, nName, address, DOB, DOB1, ti, si, i, bi, r, d) values (113 , 'rwerewr', 'jhkhjkhk', 'vcbvcbcvb', '1989-11-12', '1989-11-12 12:12:12', 12, 256, 500, 50000, 45.56, 45.7989);
+
+
+insert into sample_table(ssn, fName, nName, address) values (112 , 'rwerewr', 'jhkhjkhk', 'vcbvcbcvb');
+insert into sample_table(ssn, fName, nName, address) values (113 , 'rwerewr', 'jhkhjkhk', 'vcbvcbcvb');
+insert into sample_table(ssn, fName, nName, address) values (112 , 'rwerewr', 'jhkhjkhk', 'vcbvcbcvb');
+insert into sample_table(ssn, fName, nName, address) values('112' , 'rwerewr', 'jhkhjkhk', 23);
